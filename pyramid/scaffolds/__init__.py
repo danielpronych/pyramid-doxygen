@@ -66,3 +66,10 @@ class ZODBProjectTemplate(PyramidTemplate):
 class AlchemyProjectTemplate(PyramidTemplate):
     _template_dir = 'alchemy'
     summary = 'Pyramid SQLAlchemy project using url dispatch'
+
+class AlchemyDoxProjectTemplate(PyramidTemplate):
+    """AlchemyDoxProjectDoxTemplate
+    @brief Additional template including SQLAlchemy and Doxygen
+    @inherits PyramidTemplate as the base template"""
+    _template_dir = 'alchemydox'
+    summary = 'Pyramid SQLAlchemy Doxygen project using url dispatch'
